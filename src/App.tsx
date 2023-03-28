@@ -51,8 +51,9 @@ const App: Component = () => {
 
 								<h1 class='text-xl font-semibold' >Social Medias</h1>
 								<ul class='list-disc list-inside text-lg'>
-									<li>discord: <a class="hover:underline" href='https://discord.com/users/288062966803333120'>Aixeria#0001</a></li>
+									<li>discord: <a class="hover:underline" href='discord:discord.com/users/288062966803333120'>Aixeria#0001</a> <a class="hover:underline" href='https://discord.com/users/288062966803333120'>(web)</a></li>
 									<li>twitter: <a class="hover:underline" href='https://twitter.com/@aixeria/'>Aixeria</a></li>
+									<li>youtube: <a class="hover:underline" href='https://youtube.com/@aixeria'>Aixeria</a></li>
 									<li>steam:   <a class="hover:underline" href='https://steamcommunity.com/id/pozm/'>Aixeria</a></li>
 									<li>twitch:  <a class="hover:underline" href='https://twitch.tv/qaixeria/'>qAixeria</a></li>
 									<li>github:  <a class="hover:underline" href='https://github.com/pozm/'>Pozm</a></li>
@@ -69,8 +70,9 @@ const App: Component = () => {
 
 						<h1 class='text-xl font-semibold mb-4' >About me</h1>
 						<p class='text-lg mb-4 max-w-4xl ml-4'>
-							I'm a 17 year old computer science student from the United Kingdom. I enjoy most programming whether that be frontend, backend or app related development.
-							I'm also fond of reverse engineering and general low level programming. Rust is by far my favourite programming language as it allows me to create apps in all of the above categories while maintaining a high level of safety.
+							Im a programmer from the United Kingdom who enjoys programming in rust. I also program in c++, c#, lua, and typescript (occasionally javascript). On the side i enjoy playing games with friends.
+							I am fond of listening to music, i spend most of my days listening to music. my favourite genres are metal and rock, although i listen to others. 
+							Aside from programming I'm also fond of reverse engineering 
 						</p>
 						<h1 class='text-xl font-semibold mb-4' >Open Source Projects</h1>
 						<div class='flex flex-wrap justify-around' >
@@ -80,8 +82,21 @@ const App: Component = () => {
 							<GhCard fn='pozm/poggers' />
 							<GhCard fn='pozm/gdke' />
 							<GhCard fn='pozm/mci' />
+							<GhCard fn='pozm/monorepo-activity-monitor' />
+							<GhCard fn='pozm/jpchar' />
+							<GhCard fn='pozm/vulnus-launcher' />
+							<GhCard fn='pozm/get-all-uri-protocols' />
+							<GhCard fn='pozm/luana' />
+							<GhCard fn='pozm/crazed' />
+							<GhCard fn='pozm/wordle-clone' />
+							<GhCard fn='pozm/lua-isEven' />
 						</div>
-						<h1 class='text-xl font-semibold mb-4' >Previous Works</h1>
+						<h1 class='text-xl font-semibold mb-4' >Contributed to</h1>
+						<div class='flex flex-wrap justify-around' >
+							<GhCard fn='Herrtt/luamin.js' />
+							<GhCard fn='fatesc/fates-admin' />
+						</div>
+						{/* <h1 class='text-xl font-semibold mb-4' >Previous Works</h1>
 						<ul class='list-disc list-inside text-lg ml-4' >
 							<li>
 								2020: NHS
@@ -91,9 +106,14 @@ const App: Component = () => {
 								2020: PSU
 								<p>At psu i was tasked with creating a backend, frontend and a discord bot to interact with their Lua obfuscator.</p>
 							</li>
-						</ul>
+						</ul> */}
 
 					</div>
+					<ul class='flex items-center flex-row justify-center list-inside space-x-1 mb-2' >
+						<li class='list-none' ><a href='https://_sync.aixeria.com'>Sync</a></li>
+						<li> • <a href='https://lr.aixeria.com' >LibReddit</a></li>
+					</ul>
+					<p class='text-center' >❤️</p>
 					{/* background image blurred */}
 					<div class='top-0 left-0 -z-10 overflow-hidden h-full absolute'>
 						<img class='overflow-hidden -z-10 w-screen h-full blur-xl object-cover' src={pnkbg} alt='how' />

@@ -70,8 +70,8 @@ const App: Component = () => {
 
 						<h1 class='text-xl font-semibold mb-4' >About me</h1>
 						<p class='text-lg mb-4 max-w-4xl ml-4'>
-							Im a programmer from the United Kingdom who enjoys programming in rust. I also program in c++, c#, lua, and typescript (occasionally javascript). On the side i enjoy playing games with friends.
-							I am fond of listening to music, i spend most of my days listening to music. my favourite genres are metal and rock, although i listen to others. 
+							Im a programmer from the United Kingdom who enjoys programming in rust. I also program in c++, c#, lua, and typescript (occasionally javascript). On the side I enjoy playing games with friends.
+							I am fond of listening to music, I spend most of my days listening to music. My favourite genres are metal and rock, although I listen to others. 
 							Aside from programming I'm also fond of reverse engineering 
 						</p>
 						<h1 class='text-xl font-semibold mb-4' >Open Source Projects</h1>
